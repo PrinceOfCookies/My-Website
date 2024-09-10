@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PrinceOfCookies Portfolio</title>
+  </head>
+  <body>
+    <div class="typewriter">
+      <h1 id="typewriterText"></h1>
+      <div class="line"></div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <h1>ðŸ‘‹ Hello!</h1>
+        <p>
+          I am a <strong>17-year-old</strong>, developer who enjoys
+          coding, gaming, and content creation. I love playing
+          <strong>Garry's Mod</strong> and <strong>Minecraft</strong>, and I
+          primarily code in <strong style="color: #bd00ad;">Lua</strong> and 
+          <strong style="color: #d3d600;">JavaScript</strong>.
+        </p>
+  
+        <h2>ðŸŽ¯ Favorite Projects</h2>
+        <table>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/PrinceOfCookies/TS-CookieLang"
+                ><strong>TS-CookieLang</strong></a
+              >
+            </td>
+            <td>
+              A TypeScript project exploring the creation of a "language."
+              Although unfinished, it was a great learning experience.
+            </td>
+            <td>
+              <button onclick="showProjectInfo('tsCookieLang')">More Info</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/PrinceOfCookies/CookieOS"
+                ><strong>CookieOS</strong></a
+              >
+            </td>
+            <td>
+              A Minecraft mod project for
+              <a href="https://github.com/cc-tweaked/CC-Tweaked">CC:Tweaked</a>
+              that replaces several base functions, adds new programs, and
+              features a basic UI.
+            </td>
+            <td>
+              <button onclick="showProjectInfo('cookieOS')">More Info</button>
+            </td>
+          </tr>
+        </table>
+  
+        <h2>ðŸš§ Ongoing Projects</h2>
+        <table>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><strong>Low Sodium Hit System</strong> <em>(Private)</em></td>
+            <td>
+              Developing a hit system for a Garry's Mod server called
+              <strong>Low Sodium</strong>. I take community suggestions; join us
+              on <a href="https://discord.com/invite/BTjYMp3FWe">Discord</a>!
+            </td>
+            <td>
+              <button onclick="showProjectInfo('lowSodium')">More Info</button>
+            </td>
+          </tr>
+            <td>
+              <a href="https://github.com/PrinceOfCookies/CookieOS"
+                ><strong>CookieOS</strong></a
+              >
+            </td>
+            <td>
+              A Minecraft project to enhance ComputerCraft functionality.
+            </td>
+            <td>
+              <button onclick="showProjectInfo('cookieOS')" id="notyet">More Info</button>
+            </td>
+          </tr>
+                  <tr>
+            <td><strong>Skibidiware</strong> <em>(Private)</em></td>
+            <td>A personal learning project that I'm working on with my friend <strong><a href="https://github.com/lifeline4603">Lifeline4603</a></strong>.</td>
+            <td>
+              <button onclick="showProjectInfo('skibidiware')">More Info</button>
+            </td>
+          </tr>
+          <tr>
+          <tr>
+              <td><a href="https://github.com/PrinceOfCookies/StrwRemastered">
+              <strong>StrwRemastered</strong></a></td>
+              <td>
+                  This is a discord bot for the <a href=https://discord.gg/rfYF3PSveM><strong>Strawhat</strong></a> discord server that is owned by my friend <a href="https://discord.com/users/890994028672319499"><strong>Lifeline4603</strong></a> for his <a href="https://youtube.com/@lifeline4603?si=kLRxeJZixrmkvfaM"><strong>Youtube Channel</strong></a>
+              </td>
+             <td>
+              <button onclick="showProjectInfo('strw')">More Info</button>
+            </td>
+          </tr>
+        </table>
+  
+        <h2>ðŸ¤– Github Info</h2>
+        <img src="https://github-readme-stats.vercel.app/api?username=PrinceOfCookies&show_icons=true&layout=compact&theme=dark&card_width=200px&hide=issues&stars&line_height=24px&ring_color=045dda&icon_color=0c5482&text_color=37656b&title_color=045ddb" alt="GitHub stats" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrinceOfCookies&layout=compact&theme=dark&title_color=045ddb" alt="Language use percentages" />
+  
+        <h2>ðŸŽ¥ Content Creation</h2>
+        <p>
+          Besides programming, I'm also a <strong>YouTuber</strong>! Check out my
+          <a href="https://youtube.com/@princeofcookies?si=1ZGVREywISFAEnwY"
+            >YouTube channel</a
+          >, where I share gameplay videos (often of TF2), edited either by myself
+          or by my good friend
+          <a href="https://youtube.com/@lifeline4603?si=kLRxeJZixrmkvfaM"
+            >Lifeline</a
+          >.
+        </p>
+  
+        <h2>ðŸ’¼ Open for Commissions</h2>
+        <p>
+          Need a <strong>simple Discord bot</strong>? I'm available for hire!
+          Reach out to me via
+          <a href="https://discord.com/users/698793333178368040">Discord</a>.
+        </p>
+  
+        <h2>ðŸ“¬ Get in Touch</h2>
+        <p>
+          <strong>YouTube</strong>:
+          <a href="https://youtube.com/@princeofcookies?si=1ZGVREywISFAEnwY"
+            >PrinceOfCookies</a
+          ><br />
+          <strong>Discord</strong>:
+          <a href="https://discord.com/invite/BTjYMp3FWe">Low Sodium Server</a
+          ><br />
+          <strong>Personal Discord</strong>:
+          <a href="https://discord.com/users/698793333178368040"
+            >PrinceOfCookies</a
+          ><br />
+          <strong>GitHub</strong>:
+          <a href="https://github.com/PrinceOfCookies">PrinceOfCookies</a><br />
+          <strong>Email</strong>:
+          <a href="mailto:prince@strw.club">prince@strw.club</a>
+        </p>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
